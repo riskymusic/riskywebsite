@@ -1,0 +1,62 @@
+header {
+    margin-top: 0px;
+}
+
+.logo-row {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0px;
+    width: 90%;
+    height: 160px;
+    text-align: center;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("Images/sandunes\ edit.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+}
+
+li a {
+    display: block;
+    color: rgb(158, 4, 4);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-shadow: #000;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+
+/* li a:hover {
+    background-color: white;
+} */
+
+del {
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
